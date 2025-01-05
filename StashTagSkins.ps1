@@ -57,7 +57,7 @@ catch {
 }
 
 #Find the Library Root
-$LibraryRoot = "$psscriptpath$($directorySlash)Library"
+$LibraryRoot = "$psscriptroot$($directorySlash)Library"
 if (!(test-path "$LibraryRoot"))
 {
     $LibraryRoot = ".$($directorySlash)Library"
